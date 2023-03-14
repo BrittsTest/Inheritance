@@ -6,10 +6,28 @@ public class Animal{
     public String limbs;
     public String sound;
 
-    
+    public Animal(){
+        super();
+    }
+
+    public Animal(String color, int age){
+        this.color = color;
+        this.age = age;
+    }
+
+    public Animal(int age, String color, String sound){
+        this.color = color;
+        this.age = age;
+        this.sound = sound;
+    }
+
 
     public void sound(){
         System.out.println("I make an arbirary sound");
+    }
+
+    public void sound(String sound){
+        System.out.println(sound);
     }
 
 	@Override
@@ -59,6 +77,9 @@ public class Animal{
 			return false;
 		return true;
 	}
+
+
+
     
     
 }
