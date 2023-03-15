@@ -19,6 +19,13 @@ public class Driver{
         JackRabbit jr = new JackRabbit();
         jr.sound();
 
+        Animal ani2 = new Dog("Black", 4);
+        ani2.sound();
+
+        
+        //not legal!!!!!!!!!
+        // Animal ani3 = new Animal();
+
         // Object obj1 = new Object();
         // System.out.println(obj1.hashCode()); //2060468723
 
